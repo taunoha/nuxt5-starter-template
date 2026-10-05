@@ -13,7 +13,7 @@ This template serves as a future-proof foundation for your projects, allowing yo
 - [x] [Nuxt](https://nuxt.com)
 - [x] [Vue](https://vuejs.org)
 - [x] [VueUse](https://nuxt.com/modules/vueuse)
-- [x] [Nuxt UI](https://ui.nuxt.com/) By default it uses the **Mint theme** from the [Nuxt UI theme gallery](https://ui.nuxt.com/themes)
+- [x] [Nuxt UI](https://ui.nuxt.com/) By default it uses the **Mint theme** from the [Nuxt UI theme gallery](https://ui.nuxt.com/theme)
 - [x] [Nuxt Icons](https://nuxt.com/modules/icon)
 - [x] [Nuxt Image](https://image.nuxt.com/) A drop-in replacement for the native <img> tag.
 - [x] [Nuxt Fonts](https://fonts.nuxt.com/) Plug-and-play web font optimization and configuration

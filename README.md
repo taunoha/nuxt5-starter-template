@@ -23,7 +23,6 @@ This template serves as a future-proof foundation for your projects, allowing yo
 
 - [x] [ESLint](https://eslint.org/) with [@nuxt/eslint](https://eslint.nuxt.com/) and [Prettier](https://prettier.io/) (including [Tailwind class sorting](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)) to check the source code for programmatic and stylistic errors. `npm run lint` and format-on-save use the same formatting.
 - [x] [eslint-plugin-better-tailwindcss](https://github.com/schoero/eslint-plugin-better-tailwindcss) correctness rules (`no-unknown-classes`, `no-conflicting-classes`, `no-concatenated-classes`) as errors in Vue files.
-- [x] Tailwind IntelliSense treats `*.css` as Tailwind, suggests classes inside strings, and also reads the `class` and Nuxt UI `ui` attributes and `defineAppConfig`.
 - [x] [VS Code](https://code.visualstudio.com/) formats the whole file on save. The workspace formatter for JavaScript, TypeScript, and Vue is the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), which runs Prettier, so a separate Prettier extension is not needed. Install the recommended extensions when prompted: ESLint, [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar), and [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 - [x] Git hooks with [Husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/okonet/lint-staged) to automatically lint and format your code upon committing.
 

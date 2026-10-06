@@ -12,7 +12,7 @@ const isDark = computed({
   },
 });
 
-const { data, error } = await useFetch("/api/v1/posts", { method: "GET" });
+const { data, error } = await useFetch("/api/v1/posts");
 
 if (error.value) {
   throw createError({ ...error.value, statusMessage: "Posts Not Found" });
